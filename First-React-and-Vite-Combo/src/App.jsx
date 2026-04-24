@@ -2,26 +2,13 @@ import { useState } from 'react'
 import { Fragment } from 'react';
 import './styles.css'
 
-function App() {
-  const [count, setCount] = useState(0);
-  return (
-    <main>
-      <Link />
-      <h1>{count}</h1>
-      <button onClick={() => setCount(count + 1)}>
-        Increment
-      </button>
-      <footer>
-        <Link />
-      </footer>
-    </main>
-  )
-}
+import Header from './components/header'
 
-function Link() {
+function App() {
   return (
+
     <>
-      <a href="#">Klik mij</a>
+      <Header content="nu is het deze header" />
     </>
   )
 }
