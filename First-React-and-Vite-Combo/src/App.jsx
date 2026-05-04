@@ -1,14 +1,19 @@
-import { useState } from 'react'
-import { Fragment } from 'react';
+// import { useState } from 'react'
+// import { Fragment } from 'react';
 import './styles.css'
 
 import Header from './components/header'
+import RepoList from './components/repo-list'
 
 function App() {
   return (
-
     <>
-      <Header />
+      <header>
+        <Header />
+      </header>
+      <main>
+        <RepoList />
+      </main>
     </>
   )
 }
