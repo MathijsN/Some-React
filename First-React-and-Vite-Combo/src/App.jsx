@@ -7,12 +7,17 @@ import Header from './components/header'
 
 function App() {
   const newArr = contentInfo.map(content => {
-    return <Header content={content.heading} />
+    return <Header
+      content={content.heading}
+      link={content.link}
+    />
   })
   return (
 
     <>
-      <Header content={newArr} />
+      <header>
+        {newArr}
+      </header>
     </>
   )
 }

@@ -1,22 +1,17 @@
 export default [
     {
         id: 1,
-        heading: 'heading 1'
+        heading: 'GitHub',
+        link: 'https://github.com/MathijsN'
     },
     {
         id: 2,
-        heading: 'heading 2'
+        heading: 'I love web',
+        link: 'https://github.com/MathijsN/i-love-web'
     },
     {
         id: 3,
-        heading: 'heading 3'
-    },
-    {
-        id: 4,
-        heading: 'heading 4'
-    },
-    {
-        id: 5,
-        heading: 'heading 5'
+        heading: 'Portfolio',
+        link: 'https://github.com/MathijsN/Portfolio'
     },
 ]
