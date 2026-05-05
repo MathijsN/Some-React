@@ -12,7 +12,11 @@ export default function RepoList() {
         <>
             <ul className="repo-list">
                 {repos.map((repo) => (
-                    <li><a href={repo.html_url} key={repo.id} target="_blank">{repo.name}</a></li>
+                    <li>
+                        <a href={repo.html_url} key={repo.id} target="_blank">
+                            {repo.name}
+                        </a>
+                    </li>
                 ))}
             </ul>
         </>
